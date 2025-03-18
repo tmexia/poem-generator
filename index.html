@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <title>Poem generator</title>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <title>Poem generator</title>
   </head>
   <body>
     <header>
@@ -16,7 +17,8 @@
     <main>
       <form id="poem-generator-form">
         <input
-          class="form-text-input"
+          class="form-topic-input"
+          id="topic-input"
           type="text"
           placeholder="Enter one-word topic"
           autofocus
