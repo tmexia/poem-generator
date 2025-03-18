@@ -1,5 +1,4 @@
 function writePoem(response) {
-  alert(response.data.answer);
   new Typewriter("#poem", {
     strings: response.data.answer,
     autoStart: true,
